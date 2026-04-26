@@ -5,7 +5,7 @@ end
 
 if status is-interactive
     oh-my-posh init fish | source
-    oh-my-posh init fish --config ~/Downloads/kushal.omp.json | source
+    oh-my-posh init fish --config https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/kushal.omp.json | source
     zoxide init fish | source
     alias cd=z
     # Commands to run in interactive sessions can go here
